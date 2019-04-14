@@ -1,9 +1,7 @@
-
 <?php require('partials/head.php'); ?>
 
-<h1>Home Page</h1>
 
-<!-- <h2>Usuarios</h2>
+<h2>All Users</h2>
 
 <?php foreach($users as $user) : ?>
   <li><?php echo $user->name; ?></li>
@@ -13,11 +11,11 @@
 
 
 
-<form method="POST" action="/names">
+<form method="POST" action="/users">
 
   <input type="text" name="name">
 
-  <button type="submit">Submit</button> -->
+  <button type="submit">Submit</button>
 
 </form>
 
@@ -25,4 +23,3 @@
 
 
 <?php require('partials/footer.php'); ?>
-
