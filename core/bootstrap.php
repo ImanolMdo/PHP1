@@ -1,4 +1,5 @@
 <?php
+use App\Core\App;
 
 // Esto es ahora usando la clase app para guardar todo 
 

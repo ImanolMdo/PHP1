@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Core;
 // This is the most basic form of a dependency injection container
 class App{
 
