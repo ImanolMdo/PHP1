@@ -8,7 +8,7 @@ return[
     'connection' => 'mysql:host=localhost',
     'options' => [
       // Si quiere conectar con algo y da error que tire el warning
-      PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
+      PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
     ]
   ]
 
