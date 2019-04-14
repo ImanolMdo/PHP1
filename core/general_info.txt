@@ -1,0 +1,6 @@
+Este es el curso PHP Practitioner de Laracasts
+
+Para volver de los permisos que se le dieron a esta página al hacer un router, 
+Hay que eliminar los htaccess
+Y en el archivo de apache esta enable el rewrite module
+Hay que desactivarlo y ya volveria a la normalidad

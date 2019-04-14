@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /php1/
+RewriteRule ^.*$ index.php

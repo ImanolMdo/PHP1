@@ -1,11 +1,9 @@
 <?php 
 
-$query = require 'bootstrap.php';
+// Este index sólo se encarga de bootstrapear y setear projects
 
+require 'core/bootstrap.php';
 
+// die(var_dump($app));
 
-require 'Task.php';
-
-$tasks = $query->selectAll('tododsdsds');
-
-require 'index.view.php';
+require Router::load('routes.php')->direct(Request::uri());
