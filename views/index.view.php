@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PHP Practitioner</title>
-  <style>
-  body{
-    background-color: darkgray;
-  }
-  </style>
-</head>
 
+<?php require('partials/head.php'); ?>
 
-<body>
+<h1>Hola este es el home</h1>
 <header>
-
   <ul>
   <?php foreach ($tasks as $task): ?>
     <li>
@@ -33,5 +20,5 @@
 
 </header>
 
-</body>
-</html>
+<?php require('partials/footer.php'); ?>
+
